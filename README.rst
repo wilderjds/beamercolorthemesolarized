@@ -1,4 +1,4 @@
-Beamer Color Theme Solarized
+Beamer Color Theme Lunarized
 ===============================
 
 A color theme for `Beamer
@@ -12,16 +12,13 @@ and its `github page
 <https://github.com/altercation/ethanschoonover.com>`_ more
 information about the color palette and themes for Vim, Emacs, etc.
 
-If you use **R**, I have also written a `ggplot
-<http://had.co.nz/ggplot2/>`_ plot theme using the Solarized colors,
-which is available https://github.com/jrnold/ggthemes.
-
 Installation
 ===============
 
-Download the theme from https://github.com/jrnold/beamercolorthemesolarized and
-place it in either the same folder as your presentation .tex file or
-in the LaTeX installation tree.
+Download the theme from
+https://github.com/wilderjds/beamercolorthemesolarized and place it in
+either the same folder as your presentation .tex file or in the LaTeX
+installation tree.
 
 Usage
 ================
@@ -30,7 +27,7 @@ To load the color theme, add the following line to your document,
 
 ::
 
-  \usecolortheme[<options>]{solarized}
+  \usecolortheme[<options>]{lunarized}
 
 The following *<options>* may be given when loading the theme,
 
@@ -41,7 +38,7 @@ The following *<options>* may be given when loading the theme,
   ``red``, ``magenta``, ``violet``, ``blue``, ``cyan``, or
   ``green``.
 
-For example, to use a dark theme with a cyan accent, 
+For example, to use a dark theme with a cyan accent,
 
 ::
 
@@ -49,27 +46,27 @@ For example, to use a dark theme with a cyan accent,
 
 In addition to the beamer colors that it sets, this package defines
 colors which can be used elsewhere, e.g. in ``\setbeamercolor``.
- 
+
 The package defines the sixteen colors of the Solarized palette.
 
-:: 
+::
 
-    solarizedBase03    #002b36 
-    solarizedBase02    #073642 
-    solarizedBase01    #586e75 
-    solarizedBase00    #657b83 
-    solarizedBase0     #839496 
-    solarizedBase1     #93a1a1 
-    solarizedBase2     #eee8d5 
-    solarizedBase3     #fdf6e3 
-    solarizedYellow    #b58900 
-    solarizedOrange    #cb4b16 
-    solarizedRed       #dc322f 
-    solarizedMagenta   #d33682 
-    solarizedViolet    #6c71c4 
-    solarizedBlue      #268bd2 
-    solarizedCyan      #2aa198 
-    solarizedGreen     #859900 
+    solarizedBase03    #002b36
+    solarizedBase02    #073642
+    solarizedBase01    #586e75
+    solarizedBase00    #657b83
+    solarizedBase0     #839496
+    solarizedBase1     #93a1a1
+    solarizedBase2     #eee8d5
+    solarizedBase3     #fdf6e3
+    solarizedYellow    #b58900
+    solarizedOrange    #cb4b16
+    solarizedRed       #dc322f
+    solarizedMagenta   #d33682
+    solarizedViolet    #6c71c4
+    solarizedBlue      #268bd2
+    solarizedCyan      #2aa198
+    solarizedGreen     #859900
 
 Additionally, it defines these colors, the values of which are
 dependent on the options specified when the theme is loaded.
@@ -92,7 +89,7 @@ A light background with yellow  accents (the default).
 
 .. code:: latex
 
-  \usecolortheme{solarized} 
+  \usecolortheme{solarized}
 
 .. image:: https://raw.github.com/jrnold/beamercolorthemesolarized/master/examples/example_yellow_light-1.png
    :scale: 50%
@@ -107,7 +104,7 @@ A light background with blue accents.
 
 .. code:: latex
 
-  \usecolortheme[accent=blue]{solarized} 
+  \usecolortheme[accent=blue]{solarized}
 
 
 .. image:: https://raw.github.com/jrnold/beamercolorthemesolarized/master/examples/example_blue_light-1.png
@@ -123,7 +120,7 @@ A dark background with yellow accents.
 
 .. code:: latex
 
-  \usecolortheme[dark]{solarized} 
+  \usecolortheme[dark]{solarized}
 
 .. image:: https://raw.github.com/jrnold/beamercolorthemesolarized/master/examples/example_yellow_dark-1.png
    :scale: 50%
